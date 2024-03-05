@@ -1,0 +1,15 @@
+{% extends 'base/main.html' %}
+
+{% block content %}
+    <div class="container justify-content-center">
+        <h1>Success</h1>
+        {{ message }}
+        <p>You're logged out! You'll need to login again with the new password</p>
+        <p>You will be redirected in 5 sec to the login page</p>
+    </div>
+    <script>
+        var timer = setTimeout(function() {
+            window.location='{% url 'signin' %}'
+        }, 5000);
+    </script>
+{% endblock %}

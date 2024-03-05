@@ -1,0 +1,16 @@
+{% load static %}
+
+<h1 class="text-center mt-5 profile-h">ZDRAVEVITA
+</h1><img src="{% static 'images/logo/greenbg_logo.png' %}" alt="" class="img-responsive" />
+<nav class="navbar navbar-expand-lg mt-0 pt-0">
+    <div class="container justify-content-center" style="margin-top:5%;">
+        <ul class="navbar-nav" style="">
+            <li class="nav-item">
+              <a class="nav-link w-100 text-uppercase" aria-current="page" href="{% url 'profile' %}">My account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link w-100 text-uppercase" href="{% url 'change_pass' %}">Change Password</a>
+            </li>
+        </ul>
+    </div>
+</nav>

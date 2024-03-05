@@ -1,0 +1,77 @@
+{% load bootstrap_icons %}
+{% block header %}
+<div class="superNav border-bottom py-2 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 centerOnMobile">
+        <select  class="me-3 border-0 bg-light">
+          <option value="en-us">EN-US</option>
+        </select>
+        <span class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><strong>info@somedomain.com</strong></span>
+        <span class="me-3"><i class="bi bi-phone me-1 text-success"></i> <strong>1-800-123-1234</strong></span>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-lg-block d-md-block-d-sm-block d-xs-none text-end">
+        <span class="me-3"><i class="bi bi-truck text-muted me-1"></i><a class="text-muted" href="#">Shipping</a></span>
+        <span class="me-3"><i class="bi bi-file  text-muted me-2"></i><a class="text-muted" href="#">Policy</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light p-3 shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{% url 'home' %}"><i class="bi bi-cart me-2"></i><strong>Zdravevita</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse m-0 p-0" id="navbarNavDropdown">
+      <hr class="border-2 border-top border-danger" />
+          <ul class="navbar-nav ms-auto" >
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" style="" aria-current="page" href="#">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="{% url 'shop' %}">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">About</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#">Search</a>
+            </li>
+          </ul>
+            <hr class="border-2 border-top border-danger" />
+          <ul class="navbar-nav ms-auto">
+               {% if user.is_authenticated %}
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#"><i class="d-none d-lg-inline bi bi-cart me-1"></i> Cart</a>
+                </li>
+                <li class="nav-item">
+                  <form action="{% url 'logout' %}" method="post">
+                  {% csrf_token %}
+                  <a href="{% url 'logout' %}" class="nav-link">LOGOUT</a>
+                  </form>
+                </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="{% url 'profile' %}">PROFILE</a>
+                   </li>
+                   {% else %}
+                    <li class="nav-item">
+                      <a class="nav-link mx-2 text-uppercase" href="{% url 'signin' %}">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-uppercase" href="{% url 'register' %}">REGISTER</a>
+                    </li>
+          </ul>
+          {% endif %}
+    </div>
+
+  </div>
+</nav>
+
+{% endblock %}

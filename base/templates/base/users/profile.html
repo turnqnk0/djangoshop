@@ -1,0 +1,33 @@
+{% extends 'base/main.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+{% include "base/users/profile_header.html" %}
+    <div class="container-lg" style="background-color: transparent;color: #fff;">
+        <fieldset class="m-auto border p-3">
+            <legend class="float-none m-auto px-3 display-5 profile_legend" style="color:#fff" >Profile information</legend>
+                <hr class="border-2 border-top border-danger" />
+                <div class="profile_edit">
+                <h3 class="profile_legend ">User information</h3>
+                    {% for field, value in user_info.items %}
+                        <div class="{% cycle "profile-row1" "profile-row2" %}"><strong class="profile-field">{{ field }}</strong><p class="profile-p-tag"><label for="username">{{ value }}</label></p></div>
+                    {% endfor %}
+                <h3 class="profile_legend ">Phone and postal code</h3>
+                <hr class="border-2 border-top border-danger" />
+                    {% for field, value in userprofile.items %}
+                        <div class="{% cycle "profile-row1" "profile-row2" %}"><strong class="profile-field">{{ field }}:</strong><p class="profile-p-tag"><label for="phone">{{ value }}</label></p></div>
+                    {% endfor %}
+                <h3 class="profile_legend ">Address information</h3>
+                <hr class="border-2 border-top border-danger" />
+                    {% for field, value in address.items %}
+                        <div class="{% cycle "profile-row1" "profile-row2" %}"><strong class="profile-field">{{ field }}:</strong><p class="profile-p-tag"><label for="phone">{{ value }}</label></p></div>
+                    {% endfor %}
+                <hr class="border-2 border-top border-danger" />
+                    <a href="{% url 'profile_edit_page' %}" class="profile-btn-info"><span class="profile-btn-try" >Edit profile</span></a>
+                </div>
+
+        </fieldset>
+    </div>
+{% endblock %}

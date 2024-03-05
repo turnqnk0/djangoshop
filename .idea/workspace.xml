@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e79b0d9-cd6c-4d3c-bc7a-f7c8f48b3c05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/zdravevita.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdravevita/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdravevita/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdravevita/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdravevita/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdravevita/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2bRjYsjwSKdBV8Bdym5WOmrOeKW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.zdravevita.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monak\PycharmProjects\zdravevita\static\css" />
+      <recent name="C:\Users\monak\PycharmProjects\zdravevita\static\js" />
+      <recent name="C:\Users\monak\PycharmProjects\zdravevita\base\templates\base\users" />
+      <recent name="C:\Users\monak\PycharmProjects\zdravevita\base\templates\base" />
+      <recent name="C:\Users\monak\PycharmProjects\zdravevita\base" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="zdravevita" type="Python.DjangoServer" factoryName="Django server">
+      <module name="zdravevita" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="zdravevita.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e79b0d9-cd6c-4d3c-bc7a-f7c8f48b3c05" name="Changes" comment="" />
+      <created>1706184837126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706184837126</updated>
+      <workItem from="1706184875903" duration="11840000" />
+      <workItem from="1706208630367" duration="46000" />
+      <workItem from="1706348854326" duration="646000" />
+      <workItem from="1706537829649" duration="9931000" />
+      <workItem from="1706621145339" duration="9313000" />
+      <workItem from="1706796049730" duration="8938000" />
+      <workItem from="1706872220522" duration="1858000" />
+      <workItem from="1706960935694" duration="7439000" />
+      <workItem from="1706980655226" duration="61000" />
+      <workItem from="1707415220695" duration="2207000" />
+      <workItem from="1707428078238" duration="4451000" />
+      <workItem from="1707479265354" duration="18070000" />
+      <workItem from="1707739263940" duration="2237000" />
+      <workItem from="1707745072396" duration="11377000" />
+      <workItem from="1707835301519" duration="2150000" />
+      <workItem from="1707841696866" duration="29000" />
+      <workItem from="1707852773056" duration="10665000" />
+      <workItem from="1707910761721" duration="1051000" />
+      <workItem from="1708179362348" duration="3561000" />
+      <workItem from="1708188838274" duration="6854000" />
+      <workItem from="1708507045610" duration="16383000" />
+      <workItem from="1708558047351" duration="4816000" />
+      <workItem from="1708693571522" duration="589000" />
+      <workItem from="1708784943177" duration="13094000" />
+      <workItem from="1708871950341" duration="1546000" />
+      <workItem from="1708941554176" duration="37946000" />
+      <workItem from="1709034460574" duration="1365000" />
+      <workItem from="1709038364823" duration="1479000" />
+      <workItem from="1709046212514" duration="26245000" />
+      <workItem from="1709303421874" duration="1457000" />
+      <workItem from="1709306401193" duration="32687000" />
+      <workItem from="1709493896571" duration="25229000" />
+      <workItem from="1709584906885" duration="7226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

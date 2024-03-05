@@ -1,0 +1,275 @@
+{% extends 'base/main.html' %}
+{% load static %}
+{% block content %}
+    <section class="slider">
+        <div class="list">
+            <div class="item active">
+                <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" alt="" />
+                <div class="content">
+                    <p>design</p>
+                    <h2>slider</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{% static 'images/pexels-valeriia-miller-2530915.jpg' %}" alt="" />
+                <div class="content">
+                    <p>design</p>
+                    <h2>slider</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{% static 'images/pexels-zen-chung-5529561.jpg' %}" alt="" />
+                <div class="content">
+                    <p>design</p>
+                    <h2>slider</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{% static 'images/pexels-pixabay-278890.jpg' %}" alt="" />
+                <div class="content">
+                    <p>design</p>
+                    <h2>slider</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{% static 'images/pexels-ankush-rathi-925067.jpg' %}" alt="" />
+                <div class="content">
+                    <p>design</p>
+                    <h2>slider</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. </p>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev" class="prev"><</button>
+            <button id="next" class="next">></button>
+        </div>
+        <div class="thumbnail">
+            <div class="item active"><img src="{% static 'images/pexels-pixabay-267355.jpg' %}" alt=""/>
+            <div class="content">Name slider</div></div>
+            <div class="item"><img src="{% static 'images/pexels-ankush-rathi-925067.jpg' %}" alt=""/>
+            <div class="content">Name slider</div></div>
+            <div class="item"><img src="{% static 'images/pexels-zen-chung-5529561.jpg' %}" alt=""/>
+            <div class="content">Name slider</div></div>
+            <div class="item"><img src="{% static 'images/pexels-valeriia-miller-2530915.jpg' %}" alt=""/>
+            <div class="content">Name slider</div></div>
+            <div class="item"><img src="{% static 'images/pexels-pixabay-278890.jpg' %}" alt=""/>
+            <div class="content">Name slider</div></div>
+        </div>
+    </section>
+<section class="product">
+    <h2 class="product-category">Best-selling products!</h2>
+    <button class="pre-btn"><i class="bi bi-arrow-right"></i></button>
+    <button class="nxt-btn"><i class="bi bi-arrow-right"></i></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="{% static 'images/pexels-pixabay-278890.jpg' %}" class="product-thumb" alt=""/>
+                <button class="article-button">Add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line of the product</p>
+                <span class="price">$20</span>
+                <span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="{% static 'images/pexels-zen-chung-5529561.jpg' %}" class="product-thumb" alt=""/>
+                <button class="article-button">Add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line of the product</p>
+                <span class="price">$20</span>
+                <span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="{% static 'images/pexels-valeriia-miller-2530915.jpg' %}" class="product-thumb" alt=""/>
+                <button class="article-button">Add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line of the product</p>
+                <span class="price">$20</span>
+                <span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+                <button class="article-button">Add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line of the product</p>
+                <span class="price">$20</span>
+                <span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+                <button class="article-button">Add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line of the product</p>
+                <span class="price">$20</span>
+                <span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+                <button class="article-button">Add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line of the product</p>
+                <span class="price">$20</span>
+                <span class="actual-price">$40</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+                <button class="article-button">Add to cart</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line of the product</p>
+                <span class="price">$20</span>
+                <span class="actual-price">$40</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="product">
+<h2 class="product-category">Best-selling products!</h2>
+<button class="pre-btn"><i class="bi bi-arrow-right"></i></button>
+<button class="nxt-btn"><i class="bi bi-arrow-right"></i></button>
+<div class="product-container">
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="{% static 'images/pexels-pixabay-278890.jpg' %}" class="product-thumb" alt=""/>
+            <button class="article-button">Add to cart</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-description">a short line of the product</p>
+            <span class="price">$20</span>
+            <span class="actual-price">$40</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="{% static 'images/pexels-zen-chung-5529561.jpg' %}" class="product-thumb" alt=""/>
+            <button class="article-button">Add to cart</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-description">a short line of the product</p>
+            <span class="price">$20</span>
+            <span class="actual-price">$40</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="{% static 'images/pexels-valeriia-miller-2530915.jpg' %}" class="product-thumb" alt=""/>
+            <button class="article-button">Add to cart</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-description">a short line of the product</p>
+            <span class="price">$20</span>
+            <span class="actual-price">$40</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+            <button class="article-button">Add to cart</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-description">a short line of the product</p>
+            <span class="price">$20</span>
+            <span class="actual-price">$40</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+            <button class="article-button">Add to cart</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-description">a short line of the product</p>
+            <span class="price">$20</span>
+            <span class="actual-price">$40</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+            <button class="article-button">Add to cart</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-description">a short line of the product</p>
+            <span class="price">$20</span>
+            <span class="actual-price">$40</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">50% off</span>
+            <img src="{% static 'images/pexels-pixabay-267355.jpg' %}" class="product-thumb" alt=""/>
+            <button class="article-button">Add to cart</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-description">a short line of the product</p>
+            <span class="price">$20</span>
+            <span class="actual-price">$40</span>
+        </div>
+    </div>
+</div>
+</section><script src="{% static 'js/my_js.js' %}"></script>
+{% endblock content %}

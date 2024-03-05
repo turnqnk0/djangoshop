@@ -1,0 +1,22 @@
+{% extends 'base/main.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="signup">
+    <fieldset class="signup p-3" style="">
+        <legend class="float-none w-auto px-5 my-5" style="color:#000;font-size: 26px;font-weight: bold;text-align: center">Profile register</legend>
+        <form method="post">
+            {% csrf_token %}
+            <h2>User Profile</h2>
+            <hr class="border-2 border-top border-danger" />
+            {{ form_user_profile|crispy }}
+            <h2>Address</h2>
+            <hr class="border-2 border-top border-danger" />
+            {{ form_address|crispy }}
+            <div class="register-button">
+            <button type="submit" value="Submit" class="reg-button">Finalisimo</button>
+            </div>
+        </form>
+    </fieldset>
+</div>
+
+{% endblock %}

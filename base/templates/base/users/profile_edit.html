@@ -1,0 +1,16 @@
+{% extends 'base/main.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container-lg w-50 m-auto">
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form_user_profile|crispy }}
+        {{ address_form|crispy }}
+        <button type="submit" class="">Save</button>
+    </form>
+</div>
+<div class="container-lg w-50 m-auto">
+
+</div>
+
+{% endblock %}

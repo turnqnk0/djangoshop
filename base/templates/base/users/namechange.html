@@ -1,0 +1,17 @@
+{% extends "base/users/profile.html" %}
+
+
+<h3>Edit Profile</h3>
+        <section class="col-lg-12 m-5 p-5 border border-4 shadow-lg p-3 mb-5 bg-white rounded">
+        <form action="" method="POST">
+            {% csrf_token %}
+            <label for="firstname">First name</label>
+            <input id="firstname" class="" type="text" name="first_name" placeholder="{{ user.first_name }}"/>
+             <label for="lastname">Last name</label>
+            <input id="lastname" class="" type="text" name="last_name" placeholder="{{ user.last_name }}"/>
+            <button type="submit" value="change_names">Save</button>
+        </form>
+            {% if request.errors.change_name_error %}
+                <p>{{ request.errors.change_name_error}}</p>
+            {% endif %}
+            </section>

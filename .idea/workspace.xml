@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e79b0d9-cd6c-4d3c-bc7a-f7c8f48b3c05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zdravevita.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdravevita/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdravevita/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdravevita/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdravevita/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdravevita/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="7e79b0d9-cd6c-4d3c-bc7a-f7c8f48b3c05" name="Changes" comment="new" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,10 +139,32 @@
       <workItem from="1709306401193" duration="32687000" />
       <workItem from="1709493896571" duration="25229000" />
       <workItem from="1709584906885" duration="7226000" />
+      <workItem from="1709633613412" duration="355000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <option name="closed" value="true" />
+      <created>1709633798176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709633798176</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <option name="closed" value="true" />
+      <created>1709633861262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709633861262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>

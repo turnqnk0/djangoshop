@@ -1,0 +1,2 @@
+# djangoshop
+shop
